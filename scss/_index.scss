@@ -1,0 +1,76 @@
+@import "bg";
+@import "font";
+.btn-primary:hover {
+    background: $bittersweet;
+    color: #fff !important;
+}
+
+.border-mercury {
+    border: 3px solid $mercury;
+}
+
+header {
+    .nav-item {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .modal-title {
+        color: $darkblue;
+        font-weight: 600;
+    }
+    a {
+        color: $bittersweet;
+    }
+}
+
+.nav-pills .nav-link.active {
+    background: none;
+    border-bottom: 4px solid $dandelion;
+    font-weight: 600;
+}
+
+.btn-outline-yellow-200 {
+    &:hover {
+        background: $dandelion;
+        border: 0;
+        i {
+            color: $bittersweet;
+        }
+    }
+}
+
+.card-section {
+    position: sticky;
+    top: 60px;
+}
+
+.accordion-button {
+    &:focus {
+        border-color: black;
+        box-shadow: 0 0 0 0.25rem #f8f3f3;
+    }
+}
+
+#status {
+    .card {
+        margin-bottom: 10%;
+        .card-title {
+            font-size: 1.4rem;
+            margin-bottom: 1%;
+            font-weight: 600;
+        }
+        .card-subtitle {
+            font-size: 0.9rem;
+            margin-bottom: 2%;
+        }
+        a {
+            color: $bittersweet;
+            font-size: 14px;
+        }
+    }
+}
+
+.mark {
+    color: $bittersweet;
+    background: none;
+}

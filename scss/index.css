@@ -1,0 +1,22 @@
+.btn-primary:hover {
+  background: red;
+  color: #fff !important;
+}
+
+header .nav-item {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.bg-gray-100 {
+  background: #F8F9FA;
+}
+
+.btn-outline-yellow-200:hover {
+  background: red;
+}
+
+.btn-outline-yellow-200:hover i {
+  color: red;
+}
+/*# sourceMappingURL=index.css.map */
